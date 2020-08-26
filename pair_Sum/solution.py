@@ -5,14 +5,14 @@ def sumPair(arr,target):
     arr.sort()
 
     while (l < r):
-        sum = given[l] + given[r]
+        sum = arr[l] + arr[r]
 
         if (sum > target):
             r -= 1
         elif (sum < target):
             l += 1
         elif (sum  == target):
-            pairs.add((given[l],given[r]))
+            pairs.add((arr[l],arr[r]))
             l += 1
 
     if len(pairs) != 0:
