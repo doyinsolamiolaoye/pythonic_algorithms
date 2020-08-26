@@ -17,11 +17,11 @@ def sumPair(arr,target):
 
     if len(pairs) != 0:
         return pairs
-    else:
-        return "No Pair Found"
+        
+    return "No Pair Found"
 
 if __name__ == '__main__': 
-    target = 145
+    target = 14
     given = [3,6,7,4,8,10,12,15]
     result = sumPair(given, target)
     print(result)
