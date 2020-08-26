@@ -1,4 +1,4 @@
 # pythonic_algorithms
 
-Contains very interesting Algorithms. Enjoy!
+Contains various pythonic problems and my method of solving them. Enjoy!
  
